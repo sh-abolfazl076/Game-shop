@@ -1,0 +1,173 @@
+*{
+    direction: rtl;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #44C97D;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .right{
+    width: 60%;
+    height: 100vh;
+    text-align: right;
+    background-color: #44C97D;
+    position: relative;
+}
+section .right::after{
+    content: "فروشگاه بازی";
+    font-weight: 800;
+    font-size: 31px;
+    top: 131px;
+    position: absolute;
+    right: 106px;
+    color: #fff;
+}
+section .right .login{
+    width: 350px;
+    height: 220px;
+    margin: 236px 235px 0 0;
+    text-align: right;
+}
+section .right .login .title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+section .right .title .log{
+    display: block;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #E3F7EC;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #E3F7EC;
+    font-weight: bold;
+}
+section .right .title .register{
+    display: block;
+    margin-left: 15px;
+    font-size: 20px;
+    color:white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffff;
+}
+section .right input[type=text]{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    padding-right:  10px; ;
+}
+section .right input[type=password]{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    display: block;
+    padding-right: 10px; ;
+}
+section .right button{
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    padding: 3px 5px 8px 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    color: #44C97D;
+    display: block;
+    padding-right: 10px; ;
+    cursor: pointer;
+    position: relative;
+    transition: 500ms;
+}
+section .right button:hover{
+    background-color: rgb(233, 134, 5);
+}
+
+
+
+section .right .icon-box{
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+}
+section .right .icon-box a i{
+    margin: 0 40px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.icon1{
+    background-color: #627AAC;
+    color:#fff;
+}
+.icon2{
+    background-color: #E36E60;
+    color:#fff;
+}
+.icon3{
+    background-color: #3295C4;
+    color:#fff;
+}
+
+
+section .img{
+    width: 40%;
+    height: 100vh;
+}
+section .img img{
+    width: 540.5px;
+    height: 640px;
+}
+
+
+
+/* MediaQuery 1024 */
+@media only screen and (max-width: 1024px){
+
+    section .right{
+        width: 60%;
+        height: 100vh;
+        text-align: center;
+    }
+    section .right .login{
+        width: 350px;
+        height: 220px;
+        margin: 236px auto;
+        text-align: right;
+    }
+
+}
+
+/* MediaQuery 875 */
+@media only screen and (max-width: 875px){
+
+    section .right{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+    section .right .login{
+        width: 350px;
+        height: 220px;
+        /* margin: 236px 0px 0 0; */
+        text-align: center;
+    }
+
+    section .img{
+        display: none;
+    }
+
+}

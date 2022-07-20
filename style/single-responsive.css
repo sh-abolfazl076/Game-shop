@@ -1,0 +1,458 @@
+
+/* MediaQuery 1024px */
+@media only screen and (max-width: 1024px){
+    .single .continer{
+        max-width:776px ;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .single .content{
+        width: 776px;
+        min-height: 100px;
+        margin: 30px 0;
+    }
+    .single .sideBar{
+        width: 288px;
+    }
+    
+    /* single content */
+    .content .cover{
+        width: 776px;
+        min-height: 100px;
+    }
+    .content .cover img.bg-cover{
+        width: 776px;
+        height: 150px;
+    }
+
+    .content .cover .information{
+        width: 776px;
+        height: 110px;
+        margin-top: 10px;
+    }
+    .content .cover .information .haeder{
+        width: 776px;
+        height: 70px;
+    }
+    .content .cover .information .haeder h1{
+        font-size: 14px;
+    }
+    .content .cover .information .haeder p span.price{
+        font-size: 18px;
+    }
+    .content .cover .information .footer{
+        width: 776px;
+        height: 40px;
+    }
+    
+    /* content feature */
+    .content .feature{
+        width: 776px;
+    }
+    .content .feature ul{
+        width: 776px;
+    }
+    .content .feature ul li{
+        width: 143px; 
+    }
+
+    /* fulltext */
+    .content .fullText{
+        width: 776px;
+        padding: 10px;
+    }
+     
+    /* comments */
+    .content .comments{
+        width: 776px;
+        min-height: 50px;
+    }
+    .content .comments .comments-header{
+        width: 776px;
+        height: 100px;
+    }
+    .content .comments .comments-header .right{
+        width: 250px;
+    }
+    .content .comments .comments-header .right::after{
+        width: 35px;
+        height: 33px;
+
+        top: 33.5px;
+        right: 33.5px;
+    }
+    .content .comments .comments-header .right h6{
+        width: 320px;
+        font-size: 16px;
+        margin: 28px 80px 0 0;
+    }
+    .content .comments .comments-header .right p{
+        margin-right:80px;
+        font-size: 16px;
+    }
+    .content .comments .comments-header .left{
+        width: 400px;
+    }
+    
+    .content .comments .comments-list{
+        width: 776px;
+    }
+    .content .comments .comments-list ul li{
+        width: 750px;
+        min-height: 50px;
+        margin: 15px 14px 10px 0;
+    }
+    .content .comments .comments-list ul li .comments-text{
+        width: 750px;
+        padding: 10px;
+    }
+    .content .comments .comments-list ul li .comments-text .head{
+        width: 730px;
+    }
+    .content .comments .comments-list ul li .head strong{
+        font-size: 15px;
+        color: #ff6a37;
+    }
+    .content .comments .comments-list ul li .head span{
+        font-size: 15px;
+    }
+    .content .comments .comments-list ul li p.text{
+        width: 730px;
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+    .content .comments .comments-list ul li .response{
+        width: 730px;
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MediaQuery 776px */
+@media only screen and (max-width: 776px){
+    .single .continer{
+        max-width:576px ;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .single .content{
+        width: 576px;
+        min-height: 100px;
+        margin: 30px 0;
+    }
+    .single .sideBar{
+        width: 288px;
+    }
+    
+    /* single content */
+    .content .cover{
+        width: 576px;
+        min-height: 100px;
+    }
+    .content .cover img.bg-cover{
+        width: 576px;
+        height: 150px;
+    }
+
+    .content .cover .information{
+        width: 576px;
+        height: 110px;
+        margin-top: 10px;
+    }
+    .content .cover .information .haeder{
+        width: 576px;
+        height: 70px;
+    }
+    .content .cover .information .haeder h1{
+        font-size: 14px;
+    }
+    .content .cover .information .haeder p span.price{
+        font-size: 18px;
+    }
+    .content .cover .information .footer{
+        width: 576px;
+        height: 40px;
+    }
+    
+    /* content feature */
+    .content .feature{
+        width: 576px;
+    }
+    .content .feature ul{
+        width: 576px;
+    }
+    .content .feature ul li{
+        width: 143px; 
+    }
+
+    /* fulltext */
+    .content .fullText{
+        width: 576px;
+        padding: 10px;
+    }
+     
+    /* comments */
+    .content .comments{
+        width: 576px;
+        min-height: 50px;
+    }
+    .content .comments .comments-header{
+        width: 576px;
+        height: 100px;
+    }
+    .content .comments .comments-header .right{
+        width: 250px;
+    }
+    .content .comments .comments-header .right::after{
+        width: 35px;
+        height: 33px;
+
+        top: 33.5px;
+        right: 33.5px;
+    }
+    .content .comments .comments-header .right h6{
+        width: 320px;
+        font-size: 16px;
+        margin: 28px 80px 0 0;
+    }
+    .content .comments .comments-header .right p{
+        margin-right:80px;
+        font-size: 16px;
+    }
+    .content .comments .comments-header .left{
+        width: 400px;
+    }
+    
+    .content .comments .comments-list{
+        width: 576px;
+    }
+    .content .comments .comments-list ul li{
+        width: 550px;
+        min-height: 50px;
+        margin: 15px 14px 10px 0;
+    }
+    .content .comments .comments-list ul li .comments-text{
+        width: 550px;
+        padding: 10px;
+    }
+    .content .comments .comments-list ul li .comments-text .head{
+        width: 530px;
+    }
+    .content .comments .comments-list ul li .head strong{
+        font-size: 15px;
+        color: #ff6a37;
+    }
+    .content .comments .comments-list ul li .head span{
+        font-size: 15px;
+    }
+    .content .comments .comments-list ul li p.text{
+        width: 530px;
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+    .content .comments .comments-list ul li .response{
+        width: 530px;
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* MediaQuery 576px */
+@media only screen and (max-width: 576px){
+    .single .continer{
+        max-width:100% ;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .single .content{
+        width: 360px;
+        min-height: 100px;
+        margin: 30px 0;
+    }
+    
+    
+    .single .sideBar{
+        width: 288px;
+    }
+    
+    /* single content */
+    .content .cover{
+        width: 360px;
+        min-height: 100px;
+    }
+    .content .cover img.bg-cover{
+        width: 360px;
+        height: 150px;
+    }
+    .content .cover img.small-cover{
+        width: 100px;
+        height: 100px;
+    }
+
+    .content .cover .information{
+        width: 360px;
+        height: 110px;
+        margin-top: 10px;
+    }
+    .content .cover .information .haeder{
+        width: 360px;
+        height: 70px;
+    }
+    .content .cover .information .haeder h1{
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .content .cover .information .haeder p span.price{
+        font-size: 12px;
+    }
+    .content .cover .information .haeder a{
+        width: 90px;
+        font-weight: 11px;
+    }
+    .content .cover .information .footer{
+        width: 360px;
+        min-height: 40px;
+    }
+    .footer p.genre strong{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footer p.genre span{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .footer p.date strong{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .footer p.date span{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .footer .rate{
+        width: 100px;
+    }
+    .footer .rate p{
+        font-size: 12px;
+    }
+    .content .cover .footer .rate p span.orange{
+        font-size: 14px;
+    }
+     
+    
+    /* content feature */
+    .content .feature{
+        width: 360px;
+    }
+    .content .feature ul{
+        width: 360px;
+    }
+    .content .feature ul li{
+        width: 143px; 
+    }
+
+    /* fulltext */
+    .content .fullText{
+        width: 360px;
+        padding: 10px;
+    }
+     
+    /* comments */
+    .content .comments{
+        width: 360px;
+        min-height: 50px;
+    }
+    .content .comments .comments-header{
+        width: 360px;
+        height: 100px;
+    }
+    .content .comments .comments-header .right{
+        width: 250px;
+    }
+    .content .comments .comments-header .right::after{
+        width: 35px;
+        height: 33px;
+
+        top: 33.5px;
+        right: 33.5px;
+    }
+    .content .comments .comments-header .right h6{
+        width: 100px;
+        font-size: 14px;
+        margin: 28px 80px 0 0;
+    }
+    .content .comments .comments-header .right p{
+        margin-right:80px;
+        font-size: 12px;
+    }
+    .content .comments .comments-header .left{
+        width: 100px;
+    }
+    .content .comments .comments-header .left span{
+        letter-spacing: 7px;
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    
+
+    .content .comments .comments-list{
+        width: 360px;
+    }
+    .content .comments .comments-list ul li{
+        width: 340px;
+        min-height: 50px;
+        margin: 15px 8px 10px 0;
+    }
+    .content .comments .comments-list ul li .comments-text{
+        width: 340px;
+        padding: 10px;
+    }
+    .content .comments .comments-list ul li .comments-text .head{
+        width: 340px;
+    }
+    .content .comments .comments-list ul li .head strong{
+        font-size: 12px;
+        color: #ff6a37;
+    }
+    .content .comments .comments-list ul li .head span{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .content .comments .comments-list ul li p.text{
+        width: 325px;
+        font-size: 12px;
+        margin: 5px 0 0 0;
+    }
+    .content .comments .comments-list ul li .response{
+        width: 325px;
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+
+}

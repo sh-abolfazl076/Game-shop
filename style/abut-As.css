@@ -1,0 +1,35 @@
+
+main .continer{
+    max-width: 1024px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+main .continer .title{
+    margin: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 70px;
+}
+main .continer .title i{
+    color: #920E0C;
+    margin-left: 10px;
+}
+main .continer .title p span{
+    display: block;
+    font-size: 20px;
+}
+main .continer .title p strong{
+    display: block;
+    font-size: 20px;
+}
+
+
+

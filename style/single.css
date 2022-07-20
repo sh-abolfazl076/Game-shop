@@ -1,0 +1,420 @@
+
+.single{
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.single .continer{
+    margin: 0px auto;
+    max-width:1024px ;
+    display: flex;
+    justify-content: space-between;
+}
+.single .content{
+    width: 700px;
+    min-height: 100px;
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+
+.single .sideBar{
+    width: 300px;
+    overflow: hidden;
+    min-height: 100px;
+    margin: 30px 24px 30px 0;
+}
+
+/* sidebar system */
+.sideBar .system{
+    width: 298px;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.sideBar .orang::after{
+    width: 122px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    content: "";
+    background: url(../imgs/system.png);
+    display: block;
+}
+.sideBar .blue::after{
+    width: 122px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    content: "";
+    background: url(../imgs/system2.png);
+}
+.sideBar .system .title{
+    width: 298px;
+    height: 100px;
+    overflow: hidden;
+}
+.sideBar .system .title p{
+    margin: 35px 140px 0 0;
+}
+.sideBar .system .title p span{
+    color: #ff6a37;
+}
+.sideBar .system .title p strong{
+    color: #ff6a37;
+}
+
+.sideBar .system .list{
+    width: 298px;
+    min-height: 100px;
+    overflow: hidden;
+    direction: ltr;
+}
+.sideBar .system .list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.sideBar .system .list ul li{
+    margin-top: 15px;
+    list-style: none;
+    direction: ltr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 268px;
+    height: 35px;
+    overflow: hidden;
+}
+.sideBar .system .list ul li:first-child{
+    margin-top: 11px;   
+}
+.sideBar .system .list ul li .subject{
+    width: 48px;
+    height: 35px;
+    background-color: #aeaeae;
+}
+.sideBar .system .list ul li .subject span{
+    color: #fff;
+    font-size: 15px;
+    direction: ltr !important;
+    text-align: left;
+    margin: 4px 0 0 5px;
+    display: block;
+}
+.sideBar .system .list ul li .value{
+    width: 213px;
+    height: 33px;
+    border: 1px solid #dfdfdf;
+}
+.sideBar .system .list ul li .value span{
+    font-size: 11px;
+    direction: ltr !important;
+    text-align: left;
+    display: block;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.sideBar .ads{
+    width: 298px;
+    min-height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 1pc;
+    border: 1px solid #dfdfdf;
+}
+.sideBar .ads a img{
+    width: 120px;
+    height: 240px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* single content */
+.content .cover{
+    width: 700px;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.content .cover img.bg-cover{
+    width: 700px;
+    height: 150px;
+    overflow: hidden;
+}
+.content .cover img.small-cover{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+.content .cover .information{
+    width: 700px;
+    height: 110px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.content .cover .information .haeder{
+    width: 698px;
+    height: 70px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .cover .information .haeder h1{
+    font-size: 18px;
+    margin: 0px 170px 0 0;
+}
+.content .cover .information .haeder p span.disprice{
+    text-decoration:line-through;
+}
+.content .cover .information .haeder p span.price{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #27bec4;
+}
+.content .cover .information .haeder p span.price i{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+.content .cover .information .haeder a{
+    font-size: 15px;
+    width: 120px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #27bec4;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+    transition: 500ms;
+    display: block;
+}
+.content .cover .information .haeder a:hover{
+    background-color:#ff6a37;
+}
+
+.content .cover .information .footer{
+    width: 700px;
+    height: 40px;
+    overflow: hidden;
+    background-color: #e1e1e1;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .cover .information .footer p.genre{
+    margin: 5px 10px 0 20px;
+}
+.content .cover .information .footer p.date{
+    margin-left: auto;
+}
+.content .cover .information .footer .rate{
+    width: 115px;
+    height: 40px;
+    margin: 2px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .cover .footer .rate p span.orange{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #ff6a37;
+}
+.content .cover .footer .rate .chart{
+    width: 60px;
+    height: 15px;
+    border: 1px solid #8b8b8b;
+    position: relative;
+    margin: 5px 6px 0 0;
+    direction: ltr;
+}
+.content .cover .rate .chart .chart-Value{
+    height: 10px;
+    margin: 2.5px;
+    background-color: #ff6a37;
+}
+/* end of single content */
+
+/* content feature */
+.content .feature{
+    width: 700px;
+    min-width: 50px;
+}
+.content .feature ul{
+    width: 700px;
+    min-width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .feature ul li{
+    float: right;
+    width: 163px; 
+    min-height: 35px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 10px 5px;
+    position: relative;
+    text-align: center;
+}
+.content .feature ul li::after{
+    content: "✓";
+    width: 17px;
+    height: 17px;
+    padding: 0 3px 3px 0;
+    background-color: #ff6a37;
+    border-radius: 10px;
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+    top: 8px;
+    right: 8px;
+    display: block;
+}
+.content .feature ul li span{
+    font-size: 13px;
+    margin: 6px 35px 0 0;
+    display: block;
+}
+
+.content .fullText{
+    width: 700px;
+    min-height: 50px;
+    padding: 24px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    margin: 0 0 10px 0;
+    border: 1px solid #dfdfdf;
+}
+
+.content .comments{
+    width: 698px;
+    min-height: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dfdfdf;
+}
+.content .comments .comments-header{
+    width: 698px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.content .comments .comments-header .right{
+    background: url(../imgs/bigComments.png) no-repeat right;
+    position: relative;
+    width: 300px;
+}
+.content .comments .comments-header .right::after{
+    content: "";
+    width: 35px;
+    height: 33px;
+    background: url(../imgs/comments.png) no-repeat;
+    position: absolute;
+    display: block;
+    top: 33.5px;
+    right: 33.5px;
+}
+.content .comments .comments-header .right h6{
+    width: 500px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 28px 80px 0 0;
+}
+.content .comments .comments-header .right p{
+    margin-right:80px;
+    font-size: 16px;
+    color: #27bec4;
+    font-weight: bold;
+}
+.content .comments .comments-header .left{
+    width: 400px;
+    position: relative;
+}
+.content .comments .comments-header .left span{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: #e6e6e6;
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+.content .comments .comments-list{
+    min-height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 698px;
+}
+.content .comments .comments-list ul{
+    list-style: none;
+}
+.content .comments .comments-list ul li{
+    width: 670px;
+    min-height: 50px;
+    overflow: hidden;
+    margin: 15px 14px 10px 0;
+}
+.content .comments .comments-list ul li .comments-text{
+    width: 670px;
+    min-height: 50px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+.content .comments .comments-list ul li .comments-text .head{
+    width: 650px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.content .comments .comments-list ul li .head strong{
+    font-weight: bolder;
+    font-size: 17px;
+    color: #ff6a37;
+}
+.content .comments .comments-list ul li .head span{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.content .comments .comments-list ul li p.text{
+    width: 650px;
+    font-size: 14px;
+    text-align: justify;
+    margin: 5px 0 0 0;
+}
+
+.content .comments .comments-list ul li .response{
+    width: 650px;
+    font-size: 14px;
+    text-align: justify;
+    margin: 5px 0 0 0;
+}

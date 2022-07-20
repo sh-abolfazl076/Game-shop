@@ -1,0 +1,295 @@
+/* main order */
+.order{
+    width: 100%;
+    min-height: 300px;
+}
+.order .obtns{
+    width: 1024px;
+    height: 28px;
+    overflow: hidden;
+}
+.order .obtns ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.order .obtns ul li a{
+    display: block;
+    min-width: 30px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    font-size: 10px;
+    margin: 0 5px;
+    padding: 0px 5px 4px 5px;
+    position: relative;
+}
+.order .obtns ul li a.active2::after{
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    border-top: 5px solid #169096;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.order .obtns ul li .active2{
+    border: 1px solid #169096;
+}
+/* item */
+.order .olist{
+    width: 1024px;
+    min-height: 272px;
+}
+.order .olist .group-box{
+    display: none;
+    position: relative;
+}
+.order .olist .active2{
+    display: block;
+}
+.order .olist .next{
+    background-color: #fff;
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    top: 100px;
+    right: -15px;
+    z-index: 99;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+}
+.order .olist .next .icon{
+    width: 12px;
+    height: 21px;
+    background: url(../imgs/btnSlider.png) no-repeat;
+    margin-right: 9px;
+    margin-top: 29.5px;
+    transform: rotate(180deg);
+}
+.order .olist .prev{
+    background-color: #fff;
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    top: 100px;
+    left: -15px;
+    z-index: 99;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+}
+.order .olist .prev .icon{
+    width: 12px;
+    height: 21px;
+    background: url(../imgs/btnSlider.png) no-repeat;
+    margin-right: 9px;
+    margin-top: 29.5px;
+}
+.order .olist ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.order .olist ul li{
+    width: 194.8px;
+    min-height: 270px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.order .olist ul li:first-child{
+    margin-right: 0;
+}
+.order .olist ul li .image{
+    text-align: center;
+    width: 182.8px;
+    height: 180px;
+    overflow: hidden;
+    margin: 6px;
+    position: relative;
+}
+.order .olist ul li .image img{
+    width: 182px;
+    height: 180px;
+    overflow: hidden;
+}
+.order .olist .group-box ul li .image .hover-box{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.70);  
+    position: absolute;
+    bottom:90px;
+    right: 91.4px;
+    text-align: center;
+    transition: 1s;
+}
+.order .olist ul li .image .hover-box .icon-box {
+    position: absolute;
+    top: 75px;
+    right: 50px;  
+}
+.order .olist ul li .image:hover .hover-box {
+    width: 182.8px;
+    height: 180px;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.order .olist ul li a.title h2{
+    font-size:11px;
+    text-align: center;
+    transition: 500ms;
+    margin-top: 3px;
+}
+.order .olist ul li a.title h2:hover{
+    color:#169096;
+}
+.order .olist ul li p{
+    text-align: center;
+}
+.order .olist ul li p span.disprice{
+    font-size:11px;
+    text-decoration: line-through;    
+}
+.order .olist ul li p span.price{
+    font-size:11px;
+    color:#27bec4;
+}
+.order .olist ul li .icon-box{
+    text-align: center;
+    margin-top: 3px;
+}
+.order .olist ul li .icon-box .motherIcon i{
+    padding: 0 3px;
+    color: #c7c7c7;
+    transition: 500ms;
+}
+/* end of main order */
+
+
+
+
+/* main news */
+.news{
+    width: 100%;
+    min-height: 285px;
+    /* overflow: hidden; */
+}
+.news .title{
+    width: 1022px;
+    height: 37px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news .title .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.news .title .right h3{
+    font-size: 12px;
+}
+.news .title .right h3 span{
+    color: #b2b2b2;
+}
+.news .title .right h3 strong{
+    color: #ff642f;
+}
+.news .title .right h5{
+    font-size: 9px;
+    float: right;
+    color: #b2b2b2;
+}
+.news .title a{
+    display: block;
+    float: left;
+    margin-left:9.5px;
+    color: #a4a4a4;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.news .list{
+    width: 1024px;
+    min-height: 235px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.news .list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.news .list ul li{
+    width: 248.5px;
+    height: 235px;
+    margin-right: 10px;
+}
+.news .list ul li:first-child{
+    margin-right: 0;
+}
+.news .list ul li img{
+    width: 246.5px;
+    height: 162px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+.news .list ul li a{
+    display: block;
+    width: 248.5px;
+    height: 20px;
+    transition: 500ms;
+    cursor: pointer;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news .list ul li a h2{
+    font-size: 11px;
+    font-weight: bold;
+}
+.news .list ul li a span{
+    display: block;
+    min-width: 10px;
+    padding: 0 5px;
+    height: 17px;
+    background-color: #aaa;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+    transition: 500ms;
+    margin-left: 3px;
+}
+.news .list ul li a span:hover{
+    background-color: #ff642f;
+}
+.news .list ul li p{
+    font-size: 10px;
+    text-align: justify;
+    color: #a4a4a4;
+}
+/* end of main news */
